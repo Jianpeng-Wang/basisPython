@@ -12,7 +12,7 @@ mystr = "hello world and python and pycharm"
 # print(mystr.index('and', 15, 30))  # 23
 # print(mystr.index('ands'))  # 报错  找不到
 
-# 3.count函数
+# 3.count函数 计算出现的次数
 print(mystr.count('and'))  # 2
 print(mystr.count('and', 15, 30))  # 1
 print(mystr.count('ands'))  # 0  找不到
